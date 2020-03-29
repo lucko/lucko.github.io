@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/luck
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lucko.me
+  * I am luck (https://keybase.io/luck) on keybase.
+  * I have a public key ASAH5CNWnXC6nvyISaX2JQOymOFzDmwsR9FpUSJTrw-5vQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101f616ba2b0a1ab3c7150dbd9f1fa78810edb8a32a05d4b86c41369ed9be9850160a",
+            "host": "keybase.io",
+            "kid": "012007e423569d70ba9efc8849a5f62503b298e1730e6c2c47d169512253af0fb9bd0a",
+            "uid": "a7a45ea923c6229b341e2d21ff8fde19",
+            "username": "luck"
+        },
+        "service": {
+            "hostname": "lucko.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1469995135,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1469995040,
+        "hash": "a2d8cd32b09d8873cd8991e11fdf440c3df142e9986e9f5830efebb472023c9fc74b6e1026b02393ee301a7282ac0a302d09e9f03596720d99b73b30b29b00b8",
+        "seqno": 551272
+    },
+    "prev": "2deca1696e8fbf02401e55d7ca4eb5a25482542fbb7b403c8229306ac8b70fe3",
+    "seqno": 23,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgB+QjVp1wup78iEml9iUDspjhcw5sLEfRaVEiU68Pub0Kp3BheWxvYWTFAu17ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZjYxNmJhMmIwYTFhYjNjNzE1MGRiZDlmMWZhNzg4MTBlZGI4YTMyYTA1ZDRiODZjNDEzNjllZDliZTk4NTAxNjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMDdlNDIzNTY5ZDcwYmE5ZWZjODg0OWE1ZjYyNTAzYjI5OGUxNzMwZTZjMmM0N2QxNjk1MTIyNTNhZjBmYjliZDBhIiwidWlkIjoiYTdhNDVlYTkyM2M2MjI5YjM0MWUyZDIxZmY4ZmRlMTkiLCJ1c2VybmFtZSI6Imx1Y2sifSwic2VydmljZSI6eyJob3N0bmFtZSI6Imx1Y2tvLm1lIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0Njk5OTUxMzUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2OTk5NTA0MCwiaGFzaCI6ImEyZDhjZDMyYjA5ZDg4NzNjZDg5OTFlMTFmZGY0NDBjM2RmMTQyZTk5ODZlOWY1ODMwZWZlYmI0NzIwMjNjOWZjNzRiNmUxMDI2YjAyMzkzZWUzMDFhNzI4MmFjMGEzMDJkMDllOWYwMzU5NjcyMGQ5OWI3M2IzMGIyOWIwMGI4Iiwic2Vxbm8iOjU1MTI3Mn0sInByZXYiOiIyZGVjYTE2OTZlOGZiZjAyNDAxZTU1ZDdjYTRlYjVhMjU0ODI1NDJmYmI3YjQwM2M4MjI5MzA2YWM4YjcwZmUzIiwic2Vxbm8iOjIzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQFR83ANYphX5P00G8JwF4SLg1xNuUg14g4yXIy1Cn8e7bh9HzcdHO96bM/ELfPwNutPfxq27dlKyLlHyJPyMlAqoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCA4nWtdf1gM+SXwgdPsmYANl/Vwth807K37FCa4gdRdzaN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/luck
+
+==================================================================
