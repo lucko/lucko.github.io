@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="container sidebar-sticky footer">
-        <p>&copy; 2020 <a href="https://github.com/lucko/lucko.github.io">lucko</a> & <a href="https://github.com/poole/hyde">Hyde</a></p>
+        <p>&copy; 2020-21 <a href="https://github.com/lucko/lucko.github.io">lucko</a> & <a href="https://github.com/poole/hyde">Hyde</a></p>
     </div>
 </div>
 
@@ -31,7 +31,16 @@
         <h1>SSH key</h1>
         <br>
         <p>This is my SSH key.</p>
+        <pre><code>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIElfTVijba0HT44qFd5ksG/dlUMYHS41GO+5rT2ip911 luck@lucko.me</code></pre>
+        <p>It has the fingerprint <code>08:64:2f:da:cf:c1:b8:64:04:bb:d3:08:08:05:11:2a</code>.</p>
+        <p>As a <a href="id_ed25519.pub">raw file</a>:</p>
+        <pre><code>curl https://lucko.me/id_ed25519.pub >> ~/.ssh/authorized_keys</code></pre>
+        
+        <br>
+        <h3>RSA key</h3>
+        <p>I also have an RSA key which I used before Ed25519 was introduced to OpenSSH.</p>
         <pre><code>ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAgEAsF2NVlyl/RLeRMzuBwVvCKHwK3uTQ3Q7+7nS6uNyRU/kwmA+gTPbvmOI2/x8s8mHl95f0K+SQ6H0+CO9sQ2ASF62RsPsgagP+sFhG/9JboFcnUQVVyGoAyuH1F8Ui9BcIX5W29av6YlTyrLlar65fhZRI1kBhqReY9mmpgglX91o0AKQsoIW3qDPUp4QQzhEUDbHu04ZftfmYgVbmUmOabqQhrP02s52CITMvlp8094AcMI+kIVN7Rixydxem7fpH1x248cpXl0nhqSWVf8zkhU/lQ6KzR6K6oV8YIKeuBCDMkOD4Mfy+IYLcu15yLeZTW9VjXycyMPc2TilPribcISiDJNeeHhIUXC25eieSvxfzbnVzWFE2sx5FEjm5wRMc59F9lS9MyzSgqP4PyHYuNLjGemx1gECMRlkr2I/ApG/WTMQwxMBgJIfEQ1kzZzzcQSDMAt7Lug/kYIrEpWwQdHBelsLGO0u1oeDF8gtP/5IjBLOfnkOTJ0Avxb+YhqRnLYR+Vye0EK8qwWKGGAaRtWCXECWEim6sn03pOggWE+5hRiPTsF6F/3UsxKqfh9QAP9LCbjocJE7cqU2efKPtq2xk0SRudoQKmjkBW3DBzULwvxQQRhCJuXnD0esnVFenKrmapd4nHEZrwDANojJ8qdoYitDLpXrz4hMq8OUEgU= luck@lucko.me</code></pre>
+        <p>It has the fingerprint <code>08:ae:22:b2:48:b4:b8:b6:9c:be:76:39:9f:b3:53:1f</code>.</p>
         <p>As a <a href="id_rsa.pub">raw file</a>:</p>
         <pre><code>curl https://lucko.me/id_rsa.pub >> ~/.ssh/authorized_keys</code></pre>
     </div>
