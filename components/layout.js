@@ -23,7 +23,7 @@ export default function Layout({ children, title = '' }) {
         </div>
       </div>
       <div className="container sidebar-sticky footer">
-        <p>&copy; 2020-21 <a href="https://github.com/lucko/lucko.github.io">lucko</a> & <a href="https://github.com/poole/hyde">Hyde</a></p>
+        <p>&copy; 2020-21 <a href="https://github.com/lucko/lucko.github.io">lucko</a></p>
       </div>
     </div>
     <div className="content container">
