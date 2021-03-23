@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/luck
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lucko.me
+  * I am luck (https://keybase.io/luck) on keybase.
+  * I have a public key ASBrgi9IgORvIn9FwJsSQxsMG1FjR8ng5I-HVBlVuhYECAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101f616ba2b0a1ab3c7150dbd9f1fa78810edb8a32a05d4b86c41369ed9be9850160a",
+      "host": "keybase.io",
+      "kid": "01206b822f4880e46f227f45c09b12431b0c1b516347c9e0e48f87541955ba1604080a",
+      "uid": "a7a45ea923c6229b341e2d21ff8fde19",
+      "username": "luck"
+    },
+    "merkle_root": {
+      "ctime": 1598703267,
+      "hash": "b71ba37bbffcaafb5c9a72a383a542bec329c99c8744e77aa7489acf1eea0c4d653059e50969f608dd9831d437e36bd5c60002891c1ebe8a6756915a82255334",
+      "hash_meta": "6849b1d19a635bb6da1ca99bfdf3763b89b8d658d58d1daecbfe571fb72f8929",
+      "seqno": 17415238
+    },
+    "service": {
+      "entropy": "mG9NowyTRxM4rQPWA/KcKpCz",
+      "hostname": "lucko.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1598703287,
+  "expire_in": 504576000,
+  "prev": "3fc0e122cb905f971fae82fb762b9eeb208b97aba0e5e32e1df4d6e1b2d6aa09",
+  "seqno": 39,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEga4IvSIDkbyJ/RcCbEkMbDBtRY0fJ4OSPh1QZVboWBAgKp3BheWxvYWTESpcCJ8QgP8DhIsuQX5cfroL7diue6yCLl6ug5eMuHfTW4bLWqgnEILVHBj2UuN84BG1gJENIpcWRE+fqabjzLeT+ZlZk+8UaAgHCo3NpZ8RA+RVYXNtSlDGtiRoxNHHXevDd1PXr1vqxD93ExItjucTlWsqSJ+WMlA/6ExEj1Pvz2PX6A2C4MihwbNguN78pAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBRppYFGosUpjWZQXVJp1KGxgX63EEMDmjxjYSSeTsweo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/luck
+
+==================================================================
