@@ -22,7 +22,8 @@ export default function Layout({ children, title = '' }) {
             : <h1><Link href="/">lucko.me</Link></h1>
           }
           <p>Hey! 👋</p>
-          <p>This is a personal homepage, intended to serve as a brief intro and as an index for the other services available on this domain.</p>
+          <p>I'm lucko, a software developer from London, UK.</p>
+          <p>This is a personal website and domain that I use for the various open-source projects I work on.</p>
         </div>
       </div>
       <div className="container sidebar-sticky footer">
