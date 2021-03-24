@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { useAmp } from 'next/amp';
 
 export default function Layout({ children, title = '' }) {
   const router = useRouter();
+  const isAmp = useAmp();
+
   return <>
     <Head>
       <title>{'lucko.me' + (title && ' | ' + title)}</title>
@@ -13,7 +16,7 @@ export default function Layout({ children, title = '' }) {
     <div className="sidebar">
       <div className="container sidebar-sticky">
         <div className="sidebar-about">
-          <img src="/assets/me.jpg" alt="Me" />
+          {!isAmp && <img src="/assets/me.jpg" alt="Me" />}
           {router.pathname === '/'
             ? <h1>lucko.me</h1>
             : <h1><Link href="/">lucko.me</Link></h1>

@@ -70,3 +70,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export const config = { amp: 'hybrid' }
