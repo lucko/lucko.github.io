@@ -19,10 +19,13 @@ export default function Ssh({ ed25519Key, rsaKey }) {
       <aside>
         <h3>RSA key</h3>
         <p>I also have an RSA key which I used before Ed25519 was introduced to OpenSSH.</p>
-        <pre><code>{rsaKey}</code></pre>
-        <p>It has the fingerprint <code>08:ae:22:b2:48:b4:b8:b6:9c:be:76:39:9f:b3:53:1f</code>.</p>
-        <p>As a <a href="id_rsa.pub">raw file</a>:</p>
-        <pre><code>curl https://lucko.me/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</code></pre>
+        <details>
+          <summary>Click to expand</summary>
+          <pre><code>{rsaKey}</code></pre>
+          <p>It has the fingerprint <code>08:ae:22:b2:48:b4:b8:b6:9c:be:76:39:9f:b3:53:1f</code>.</p>
+          <p>As a <a href="id_rsa.pub">raw file</a>:</p>
+          <pre><code>curl https://lucko.me/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</code></pre>
+        </details>
       </aside>
     </Layout>
   )
