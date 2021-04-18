@@ -12,7 +12,7 @@ export default function Ssh({ ed25519Key, rsaKey }) {
         <p>This is my SSH key.</p>
         <pre><code>{ed25519Key}</code></pre>
         <p>It has the fingerprint <code>08:64:2f:da:cf:c1:b8:64:04:bb:d3:08:08:05:11:2a</code>.</p>
-        <p>As a <a href="id_ed25519.pub">raw file</a>:</p>
+        <p>As a <a href="id_ed25519.pub">raw file</a> (<a href="id_ed25519.pub.asc">signature</a>):</p>
         <pre><code>curl https://lucko.me/id_ed25519.pub &gt;&gt; ~/.ssh/authorized_keys</code></pre>
       </article>
       <br />
@@ -23,7 +23,7 @@ export default function Ssh({ ed25519Key, rsaKey }) {
           <summary>Click to expand</summary>
           <pre><code>{rsaKey}</code></pre>
           <p>It has the fingerprint <code>08:ae:22:b2:48:b4:b8:b6:9c:be:76:39:9f:b3:53:1f</code>.</p>
-          <p>As a <a href="id_rsa.pub">raw file</a>:</p>
+          <p>As a <a href="id_rsa.pub">raw file</a> (<a href="id_rsa.pub.asc">signature</a>):</p>
           <pre><code>curl https://lucko.me/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</code></pre>
         </details>
       </aside>

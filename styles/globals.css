@@ -196,6 +196,15 @@ tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
+details summary { 
+  cursor: pointer;
+  user-select: none;
+}
+
+details summary:focus { 
+  outline: none;
+}
+
 .message {
   font-size: 80%;
   margin-bottom: 1rem;
