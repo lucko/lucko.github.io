@@ -18,12 +18,7 @@ const AboutMe = () => {
       <p>I use the nickname "<b>lucko</b>" or sometimes just "<b>Luck</b>" for most of my online profiles and accounts.</p>
       <p>Among other things, I'm a <b>software developer</b> and maintain/contribute to a number of <b>open
         source</b> projects in my spare time.</p>
-      <p>If you'd like to contact me, you can reach out via <a href="mailto:hey@lucko.me">email</a>{' '}
-        or <a href="https://discord.gg/Rnbpc7s">Discord</a>.</p>
-      <p className="message">I try my best to reply to all messages, but unfortunately I often
-        don't have enough time respond to everything. If you have a question about one of my
-        projects, please use the <Link href="/contact">advertised support systems</Link> before
-        attempting to contact me directly!</p>
+      <p>If you'd like to contact me, you can find where to reach me on my <Link href="/contact">contact page</Link>.</p>
       <p>My <Link href="/pgp">PGP key</Link> has the fingerprint <code>EFA9 B3EC 5FD9 0F8B</code> and
         my <Link href="/ssh">SSH key</Link> has the fingerprint <code>08:64:2f:da:cf:c1:b8:64:04:bb:d3:08:08:05:11:2a</code>.</p>
       <p>You can find me (most actively) on GitHub, <a href="https://github.com/lucko">@lucko</a>.</p>
