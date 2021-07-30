@@ -32,10 +32,11 @@ const Domain = () => {
       <h1>This domain</h1>
       <p>A number of other sites and services are available under this domain.</p>
       <ul>
-        <li><a href="https://ci.lucko.me/">Jenkins</a> (continuous integration & downloads)</li>
-        <li><a href="https://nexus.lucko.me/">Nexus</a> (maven repository)</li>
-        <li><a href="https://paste.lucko.me/">Paste</a> (pastebin, see below)</li>
-        <li><a href="https://bytebin.lucko.me/">Bytebin</a> (content storage web service, see below)</li>
+        <li><a href="https://ci.lucko.me/"><b>ci.</b>lucko.me</a> - continuous integration & downloads</li>
+        <li><a href="https://nexus.lucko.me/"><b>nexus.</b>lucko.me</a> - maven repository</li>
+        <li><a href="https://paste.lucko.me/"><b>paste.</b>lucko.me</a> - pastebin</li>
+        <li><a href="https://bytebin.lucko.me/"><b>bytebin.</b>lucko.me</a> - content storage web service</li>
+        <li><a href="https://spark.lucko.me/"><b>spark.</b>lucko.me</a> - spark website</li>
       </ul>
       <p>I try my best to keep these services available. Most have been online and had good uptime
         for the past ~3 years at least.</p>
@@ -109,9 +110,9 @@ const Projects = () => {
         </ul>
         <p>I'm a member of a couple of organisations.</p>
         <ul>
-          <li><a href="https://kyori.net/">Kyori</a> - I've been primarily working on adventure lately (listed above)</li>
-          <li><a href="https://www.spongepowered.org/">Sponge</a> - I wrote parts of / maintain the Permissions Service in
-            SpongeAPI, and was previously a maintainer of Configurate (listed above).</li>
+          <li><a href="https://kyori.net/">Kyori</a> - I've been primarily working on adventure lately.</li>
+          <li><a href="https://www.spongepowered.org/">Sponge</a> - I wrote parts of the "PermissionService" in
+            SpongeAPI and maintained the Configurate library.</li>
         </ul>
       </section>
     </article>
