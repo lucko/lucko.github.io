@@ -108,12 +108,6 @@ const Projects = () => {
           <BriefProject repo="SpongePowered/Configurate" desc="Java configuration library" />
           <li>... and more! You can find all of my public repositories on my <a href="https://github.com/lucko">GitHub profile</a>.</li>
         </ul>
-        <p>I'm a member of a couple of organisations.</p>
-        <ul>
-          <li><a href="https://kyori.net/">Kyori</a> - I've been primarily working on adventure lately.</li>
-          <li><a href="https://www.spongepowered.org/">Sponge</a> - I wrote parts of the "PermissionService" in
-            SpongeAPI and maintained the Configurate library.</li>
-        </ul>
       </section>
     </article>
   )
