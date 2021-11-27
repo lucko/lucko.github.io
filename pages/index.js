@@ -71,7 +71,7 @@ const Projects = () => {
         <li>helper is a <b>development toolkit / library</b> for Bukkit plugin developers. It provides a number of utilities
           and extended APIs which help to reduce boilerplate code and offer alternative paradigms for creating content.</li>
         <li>I'm no longer actively working on further API additions, but the project is still being used
-          frequntly by various development teams, and I accept pull requests!</li>
+          frequently by various development teams, and I accept pull requests!</li>
       </Project>
 
       <Project repo="lucko/bytebin">
