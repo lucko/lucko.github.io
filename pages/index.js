@@ -14,10 +14,9 @@ export default function Home() {
 const AboutMe = () => {
   return (
     <article>
-      <h1>About me</h1>
-      <p>I use the nickname "<b>lucko</b>" or sometimes just "<b>Luck</b>" for most of my online profiles and accounts.</p>
-      <p>Among other things, I'm a <b>software developer</b> and maintain/contribute to a number of <b>open
-        source</b> projects in my spare time.</p>
+      <h1>Hello! 👋</h1>
+      <p>I'm <b>lucko</b> (or sometimes I use the nickname "Luck"). <br />I'm a software developer from London, UK.</p>
+      <p>This is a personal website and domain that I use for the various open-source projects I work on.</p>
       <p>If you'd like to contact me, you can find how to reach me on my <Link href="/contact">contact page</Link>.</p>
       <p>My <Link href="/pgp">PGP key</Link> has the fingerprint <code>EFA9 B3EC 5FD9 0F8B</code> and
         my <Link href="/ssh">SSH key</Link> has the fingerprint <code>08:64:2f:da:cf:c1:b8:64:04:bb:d3:08:08:05:11:2a</code>.</p>
@@ -39,7 +38,8 @@ const Domain = () => {
         <li><a href="https://spark.lucko.me/"><b>spark.</b>lucko.me</a> - spark website</li>
       </ul>
       <p>I try my best to keep these services available. Most have been online and had good uptime
-        for the past ~3 years at least.</p>
+        for the past ~4 years at least. The hosting configs can be found on GitHub
+        at <a href="https://github.com/lucko/infra">lucko/infra</a>.</p>
     </article>
   )
 }
@@ -52,8 +52,8 @@ const Projects = () => {
 
       <Project repo="lucko/LuckPerms">
         <li>LuckPerms is a <b>permission</b> plugin for Minecraft servers, written in Java.</li>
-        <li>At time of writing, it's been downloaded ~1.5M times, has ~250,000 monthly active users,
-          and a Discord community of ~12,000 people.</li>
+        <li>At time of writing, it's been downloaded ~2.5M times, has ~400,000 monthly active users,
+          and a Discord community of ~14,000 people.</li>
         <li>The project also has a website, <a href="https://github.com/lucko/LuckPermsWeb">LuckPermsWeb</a>,
           which includes web apps for viewing/editing/managing permission setups, written using Vue.js.</li>
         <li>More information can be found on the project homepage at <a href="https://luckperms.net/">luckperms.net</a>.</li>
@@ -62,6 +62,7 @@ const Projects = () => {
       <Project repo="lucko/spark">
         <li>spark is a <b>performance profiling</b> plugin/mod for Minecraft clients, servers and proxies,
           written in Java.</li>
+        <li>At time of writing, it's been downloaded ~10M times and has ~20,000 monthly active users.</li>
         <li>The project also has a website, <a href="https://github.com/lucko/spark-viewer">spark-viewer</a>,
           which includes functionality for inspecting profiles as stack trees and flame graphs, written using React.</li>
         <li>More information can be found on the project homepage at <a href="https://spark.lucko.me/">spark.lucko.me</a>.</li>
@@ -82,7 +83,8 @@ const Projects = () => {
       </Project>
 
       <Project repo="lucko/paste">
-        <li>paste (my own attempt at a <b>pastebin</b>) is a simple, "code friendly" web frontend for bytebin.</li>
+        <li>paste is a simple web app for writing & sharing code. It's my own take on conventional
+          pastebin sites like pastebin.com or hastebin..</li>
         <li>It is written using React, react-simple-code-editor and Prism.</li>
       </Project>
 
@@ -127,5 +129,3 @@ const Project = ({ repo, children }) => {
 const BriefProject = ({ repo, desc }) => {
   return <li><a href={'https://github.com/' + repo}>{repo}</a> ({desc})</li>;
 }
-
-export const config = { amp: 'hybrid' }

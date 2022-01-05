@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -16,24 +14,17 @@ html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
+
+  @media (min-width: 38em) {
     font-size: 20px;
   }
-}
-@media (min-width: 58em) {
-  html {
+  @media (min-width: 58em) {
     font-size: 20px;
   }
-}
-@media (min-width: 48em) {
-  html {
+  @media (min-width: 48em) {
     font-size: 16px;
   }
-}
-@media(min-height: 30em) {
-  html {
+  @media(min-height: 30em) {
     font-size: 16px
   }
 }
@@ -49,14 +40,16 @@ body {
 a {
   color: #268bd2;
   text-decoration: none;
-}
-a strong {
-  color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline;
+
+  strong {
+    color: inherit;
+  }
+
+  /* `:focus` is linked to `:hover` for basic accessibility */
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
 }
 
 /* Headings */
@@ -116,10 +109,11 @@ abbr {
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+
+  &[title] {
+    cursor: help;
+    border-bottom: 1px dotted #e5e5e5;
+  }
 }
 
 /* Code */
@@ -147,12 +141,13 @@ pre {
   word-break: break-all;
   word-wrap: break-word;
   background-color: #f9f9f9;
-}
-pre code {
-  padding: 0;
-  font-size: 100%;
-  color: inherit;
-  background-color: transparent;
+
+  code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+  }
 }
 
 /* Quotes */
@@ -161,12 +156,12 @@ blockquote {
   margin: .8rem 0;
   color: #7a7a7a;
   border-left: .25rem solid #e5e5e5;
-}
-blockquote p:last-child {
-  margin-bottom: 0;
-}
-@media (min-width: 30em) {
-  blockquote {
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 30em) {
     padding-right: 5rem;
     padding-left: 1.25rem;
   }
@@ -199,10 +194,10 @@ tbody tr:nth-child(odd) th {
 details summary { 
   cursor: pointer;
   user-select: none;
-}
 
-details summary:focus { 
-  outline: none;
+  &:focus { 
+    outline: none;
+  }
 }
 
 .message {
@@ -242,10 +237,13 @@ details summary:focus {
   padding: 2rem 1rem;
   color: rgba(255,255,255,.75);
   background-color: #141422;
-}
 
-@media (min-width: 48em) {
-  .sidebar {
+  /* Sidebar links */
+  a {
+    color: #fff;
+  }
+
+  @media (min-width: 48em) {
     position: fixed;
     top: 0;
     left: 0;
@@ -253,51 +251,68 @@ details summary:focus {
     width: 18rem;
     text-align: left;
   }
-}
 
-@media (min-width: 48em) {
-  .sidebar > .container {
-    right: 1rem;
-    bottom: 1rem;
-    left: 1rem;
+  @media (min-width: 48em) {
+    > .container {
+      right: 1rem;
+      bottom: 1rem;
+      left: 1rem;
+    }
+
+    footer {
+      position: absolute;
+    }
   }
-  footer {
-    position: absolute;
+}
+
+header {
+  /* Title */
+  > h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Abril Fatface", serif;
+    font-size: 3.25rem;
+  }
+
+  > img {
+    display: initial;
   }
 }
 
-/* Sidebar links */
-.sidebar a {
-  color: #fff;
-}
+nav {
+  margin-top: 10%;
+  user-select: none;
 
-/* About section */
-header > h1 {
-  color: #fff;
-  margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
-}
+  > ul {
+    list-style-type: none;
+    padding: 0;
 
-header > img {
-  display: initial;
+    > li {
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 1em;
+      }
+
+      &.other-page:hover::before {
+        content: '\27AA';
+        color: #268bd2;
+      }
+    }
+  }
 }
 
 .content {
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
 
-@media (min-width: 48em) {
-  .content {
+  @media (min-width: 48em) {
     max-width: 38rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }
-}
 
-@media (min-width: 64em) {
-  .content {
+  @media (min-width: 64em) {
     margin-left: 22rem;
     margin-right: 4rem;
   }

@@ -1,7 +1,6 @@
-import Link from 'next/link';
+import NextLink from 'next/link';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import { useAmp } from 'next/amp';
 
 export default function Layout({ children, title = '' }) {
   return <>
@@ -9,6 +8,7 @@ export default function Layout({ children, title = '' }) {
       <title>{'lucko.me' + (title && ' | ' + title)}</title>
       <meta charSet="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"></link>
     </Head>
     <Sidebar />
     <Content children={children} />
@@ -19,33 +19,58 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <Header />
+      <Nav />
       <Footer />
     </div>
   )
 }
 
 const Header = () => {
-  const router = useRouter();
-  const isAmp = useAmp();
-
   return (
     <header className="container">
-      {!isAmp && <img src="/assets/me.jpg" alt="Me" />}
-      {router.pathname === '/'
-        ? <h1>lucko.me</h1>
-        : <h1><Link href="/">lucko.me</Link></h1>
-      }
-      <p>Hey! 👋</p>
-      <p>I'm lucko, a software developer from London, UK.</p>
-      <p>This is a personal website and domain that I use for the various open-source projects I work on.</p>
+      <img src="/assets/me.jpg" alt="Me" />
+      <h1>lucko.me</h1>
     </header>
   )
 }
 
+const Nav = () => {
+  return (
+    <nav>
+      <ul>
+        <Link name="/home" url="/" />
+        <Link name="/contact" url="/contact" />
+        <Link name="/ssh" url="/ssh" />
+        <Link name="/pgp" url="/pgp" />
+      </ul>
+    </nav>
+  )
+}
+
+const Link = ({ name, url }) => {
+  const router = useRouter();
+  if (url === router.pathname) {
+    return (
+      <li className="current-page">
+        {name}
+      </li>
+    )
+  } else {
+    return (
+      <li className="other-page">
+        <NextLink href={url}>
+          {name}
+        </NextLink>
+      </li>
+    )
+  }
+}
+
 const Footer = () => {
+  const year = new Date().getFullYear().toString().substring(2);
   return (
     <footer className="container">
-      <p>&copy; 2020-21 <a href="https://github.com/lucko/lucko.github.io">lucko</a></p>
+      <p>&copy; 2020-{year} <a href="https://github.com/lucko/lucko.github.io">lucko</a></p>
     </footer>
   )
 }
