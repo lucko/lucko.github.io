@@ -40,6 +40,7 @@ const Nav = () => {
       <ul>
         <Link name="/home" url="/" />
         <Link name="/contact" url="/contact" />
+        <Link name="/status" url="/status" />
         <Link name="/ssh" url="/ssh" />
         <Link name="/pgp" url="/pgp" />
       </ul>
