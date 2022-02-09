@@ -55,10 +55,11 @@ const ServiceTag = ({ id }) => {
     'jenkins': ['Jenkins', 'ci.lucko.me'],
     'nexus': ['Nexus', 'nexus.lucko.me'],
     'bytebin': ['Bytebin', 'bytebin.lucko.me'],
+    'bytesocks': ['Bytesocks', 'luckperms.net - editor websocket service'],
     'lp-metadata': ['LuckPerms Metadata API', 'metadata.luckperms.net'],
-  }[id];
+  }[id] || [];
 
-  if (name && domain) {
+  if (name) {
     return (
       <>
         <b>{name}</b>
