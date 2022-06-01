@@ -15,12 +15,17 @@ const AboutMe = () => {
   return (
     <article>
       <h1>Hello! 👋</h1>
-      <p>I'm <b>lucko</b> (or sometimes I use the nickname "Luck"). <br />I'm a software developer from London, UK.</p>
+      <p>
+        I'm <b>lucko</b> (or sometimes I use the nickname "Luck").
+        <br />
+        I'm a software developer from London, UK.
+      </p>
       <p>This is a personal website and domain that I use for the various open-source projects I work on.</p>
-      <p>If you'd like to contact me, you can find how to reach me on my <Link href="/contact">contact page</Link>.</p>
-      <p>My <Link href="/pgp">PGP key</Link> has the fingerprint <code>EFA9 B3EC 5FD9 0F8B</code> and
-        my <Link href="/ssh">SSH key</Link> has the fingerprint <code>08:64:2f:da:cf:c1:b8:64:04:bb:d3:08:08:05:11:2a</code>.</p>
-      <p>You can find me (most actively) on GitHub, <a href="https://github.com/lucko">@lucko</a>.</p>
+      <p>
+        If you'd like to contact me, you can find how to reach me on my <Link href="/contact">contact page</Link>.
+        <br />
+        You can also find me on GitHub, <a href="https://github.com/lucko">@lucko</a>.
+      </p>
     </article>
   )
 }
@@ -51,18 +56,17 @@ const Projects = () => {
       <p>I work on a number of open source projects in my spare time.</p>
 
       <Project repo="lucko/LuckPerms">
-        <li>LuckPerms is a <b>permission</b> plugin for Minecraft servers, written in Java.</li>
-        <li>At time of writing, it's been downloaded ~2.5M times, has ~400,000 monthly active users,
-          and a Discord community of ~14,000 people.</li>
+        <li>LuckPerms is a <b>permissions</b> management system for Minecraft servers.</li>
+        <li>At time of writing, it's been downloaded ~4M times, has ~400,000 monthly active users,
+          and a Discord community of ~15,000 people.</li>
         <li>The project also has a website, <a href="https://github.com/lucko/LuckPermsWeb">LuckPermsWeb</a>,
           which includes web apps for viewing/editing/managing permission setups, written using Vue.js.</li>
         <li>More information can be found on the project homepage at <a href="https://luckperms.net/">luckperms.net</a>.</li>
       </Project>
 
       <Project repo="lucko/spark">
-        <li>spark is a <b>performance profiling</b> plugin/mod for Minecraft clients, servers and proxies,
-          written in Java.</li>
-        <li>At time of writing, it's been downloaded ~10M times and has ~20,000 monthly active users.</li>
+        <li>spark is a <b>performance profiler</b> for Minecraft clients, servers and proxies.</li>
+        <li>At time of writing, it's been downloaded ~15M times and has ~20,000 monthly active users.</li>
         <li>The project also has a website, <a href="https://github.com/lucko/spark-viewer">spark-viewer</a>,
           which includes functionality for inspecting profiles as stack trees and flame graphs, written using React.</li>
         <li>More information can be found on the project homepage at <a href="https://spark.lucko.me/">spark.lucko.me</a>.</li>
@@ -82,14 +86,17 @@ const Projects = () => {
         <li>It has a straightforward HTTP API that supports CORS.</li>
       </Project>
 
-      <Project repo="lucko/paste">
-        <li>paste is a simple web app for writing & sharing code. It's my own take on conventional
-          pastebin sites like pastebin.com or hastebin..</li>
-        <li>It is written using React, react-simple-code-editor and Prism.</li>
+      <Project repo="lucko/bytesocks">
+        <li>bytesocks is a fast & lightweight <b>WebSocket server</b>, written in Java.</li>
+        <li>It allows clients to create "channels", connect using the WebSocket protocol and
+          exchange messages with other clients in the same channel.</li>
       </Project>
 
-      <Project repo="lucko/BungeeGuard">
-        <li>BungeeGuard is a plugin-based <b>security/firewall</b> solution for BungeeCord and Velocity proxies.</li>
+      <Project repo="lucko/paste">
+        <li>paste is a simple web app for writing & sharing code. It's my own take on conventional
+          pastebin sites like pastebin.com or hastebin.</li>
+        <li>The frontend is written using React, and based on the Monaco Editor.</li>
+        <li>There is a public instance I host at <a href="https://pastes.dev/">pastes.dev</a>.</li>
       </Project>
       
       <section>
@@ -99,6 +106,7 @@ const Projects = () => {
           <BriefProject repo="lucko/shadow" desc="annotation based Java reflection library" />
           <BriefProject repo="lucko/jar-relocator" desc="program to relocate packages within .jar files" />
           <BriefProject repo="lucko/commodore" desc="brigadier API for Bukkit" />
+          <BriefProject repo="lucko/BungeeGuard" desc="security/firewall solution for Minecraft proxies" />
           <BriefProject repo="lucko/fabric-permissions-api" desc="simple permissions API for Fabric" />
           <BriefProject repo="lucko/ScriptController" desc="javax.script wrapper API" />
           <BriefProject repo="lucko/tapir" desc="JavaScript plugin loader for Sponge" />

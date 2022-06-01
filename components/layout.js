@@ -71,7 +71,7 @@ const Footer = () => {
   const year = new Date().getFullYear().toString().substring(2);
   return (
     <footer className="container">
-      <p>&copy; 2020-{year} <a href="https://github.com/lucko/lucko.github.io">lucko</a></p>
+      <p>&copy; 2015-{year} <a href="https://github.com/lucko/lucko.github.io">lucko</a></p>
     </footer>
   )
 }

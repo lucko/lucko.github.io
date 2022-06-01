@@ -17,11 +17,11 @@ export default function Status() {
         <h1>Status</h1>
         {status ? (
           <>
-            <p>The table below shows the status of the self-hosted services I host
+            <p>The table below shows the status of the self-hosted services available
               on this domain.</p>
-            <p>Most websites (including this one) are static sites which are hosted
-              using a mixture of Netlify, GitHub or CloudFlare Pages, so their statuses
-              will depend on their respective provider and therefore are not tracked here.</p>
+            <p>Most of my websites (including this one) are static sites hosted on a CDN
+              (usually Netlify, GitHub or CloudFlare Pages), so their statuses are not
+              tracked here.</p>
             <p></p>
             <table>
               <thead>
@@ -39,8 +39,8 @@ export default function Status() {
                 ))}
               </tbody>
             </table>
-            <p>The availability of each self-service in the table above is polled from
-              the CloudFlare Health Check API via a worker on CF's edge.</p>
+            <p>The availability of each service in the table above is polled from
+              CloudFlare's Health Check API.</p>
           </>
         ) : (
           <p>Loading...</p>

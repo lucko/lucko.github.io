@@ -10,27 +10,26 @@ export default function Contact() {
 
         <Section title="Questions about or requesting help with my projects">
           <p>If you have a question about one of my projects, please use the following support
-            systems before attempting to contact me directly!</p>
+            channels before attempting to contact me directly!</p>
           <ul>
-            <li>Questions / help with <b>LuckPerms</b> - use the <a href="https://discord.gg/luckperms">LuckPerms Discord</a>.</li>
-            <li>Questions / help with <b>spark</b> - use the <a href="https://discord.gg/PAGT2fu">spark Discord</a>.</li>
-            <li>Questions / help with <b>any of my other projects</b> - use my <a href="https://discord.gg/Rnbpc7s">personal Discord</a>.</li>
+            <li>Questions / help with <b>LuckPerms</b> - ask in the <a href="https://discord.gg/luckperms">LuckPerms Discord</a>.</li>
+            <li>Questions / help with <b>spark</b> - ask in the <a href="https://discord.gg/PAGT2fu">spark Discord</a>.</li>
+            <li>Questions / help with <b>any of my other projects</b> - ask in my <a href="https://discord.gg/Rnbpc7s">personal Discord</a>.</li>
           </ul>
         </Section>
 
         <Section title="Requests or offers for paid work">
-          <p>Unfortunately I'm not able to take on any new paid work/projects at the moment.
-            If this changes, I will update this page.</p>
-          <p>Until then, <b>please do not contact me about paid projects</b>.</p>
+          <p>Thanks for thinking of me! Unfortunately I'm not interested in or able to take on any freelance/paid work at the moment.
+          Best of luck with your project. 🙂</p>
         </Section>
 
         <Section title="Sponsorship or advertising queries">
-          <p>We already have a long-term sponsor for LuckPerms, and are not looking to take on any more at this time.</p>
+          <p>We already have a long-term sponsor for LuckPerms, and are not looking to take on any more at this time, sorry!</p>
         </Section>
 
         <Section title="Other">
           <p>If you are sure that your question / message doesn't fall into any of the categories above, feel free to
-            reach out using the contact methods listed below.</p>
+            reach out using the contact methods below.</p>
           <details>
             <summary>Click to expand</summary>
               <h4>Email</h4>
