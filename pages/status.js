@@ -57,6 +57,7 @@ const ServiceTag = ({ id }) => {
     'bytebin': ['Bytebin', 'bytebin.lucko.me'],
     'bytesocks': ['Bytesocks', 'luckperms.net - editor websocket service'],
     'lp-metadata': ['LuckPerms Metadata API', 'metadata.luckperms.net'],
+    'spark-metadata': ['spark API', 'sparkapi.lucko.me'],
   }[id] || [];
 
   if (name) {
