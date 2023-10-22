@@ -20,7 +20,7 @@ export default function Status() {
             <p>The table below shows the status of the self-hosted services available
               on this domain.</p>
             <p>Most of my websites (including this one) are static sites hosted on a CDN
-              (usually Netlify, GitHub or CloudFlare Pages), so their statuses are not
+              (usually Vercel, GitHub Pages, Cloudflare Pages), so their statuses are not
               tracked here.</p>
             <p></p>
             <table>
@@ -40,7 +40,7 @@ export default function Status() {
               </tbody>
             </table>
             <p>The availability of each service in the table above is polled from
-              CloudFlare's Health Check API.</p>
+              Cloudflare's Health Check API.</p>
           </>
         ) : (
           <p>Loading...</p>

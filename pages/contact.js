@@ -5,12 +5,12 @@ export default function Contact() {
     <Layout title="contact">
       <article>
         <h1>Contacting me</h1>
-        <p>I try my best to reply to all messages, but unfortunately I often don't have enough time
+        <p>I try my best to reply to messages, but unfortunately I often don't have enough time
           to respond to everything.</p>
 
         <Section title="Questions about or requesting help with my projects">
           <p>If you have a question about one of my projects, please use the following support
-            channels before attempting to contact me directly!</p>
+            channels.</p>
           <ul>
             <li>Questions / help with <b>LuckPerms</b> - ask in the <a href="https://discord.gg/luckperms">LuckPerms Discord</a>.</li>
             <li>Questions / help with <b>spark</b> - ask in the <a href="https://discord.gg/PAGT2fu">spark Discord</a>.</li>
@@ -35,7 +35,7 @@ export default function Contact() {
               <h4>Email</h4>
               <p>I can be reached via email at <a href="mailto:hey@lucko.me">hey@lucko.me</a>.</p>
               <h4>Discord</h4>
-              <p>My Discord user id is <code>241666402639937538</code>. However, I have direct messages disabled and generally
+              <p>I am <code>@luck</code> on Discord. However, I have direct messages disabled and generally
                 do not accept friend requests from people I don't already know.</p>
               <p>Instead, feel free to join my <a href="https://discord.gg/Rnbpc7s">personal Discord server</a> and chat to me there.</p>
               <p>Please be sensible, don't "ask to ask" or "ask to DM" and instead, just ask your question in the #general channel

@@ -6,12 +6,11 @@ export default function Layout({ children, title = '' }) {
   return <>
     <Head>
       <title>{'lucko.me' + (title && ' | ' + title)}</title>
-      <meta charSet="utf-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
-      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"></link>
     </Head>
     <Sidebar />
-    <Content children={children} />
+    <Content>
+      {children}
+    </Content>
   </>
 }
 

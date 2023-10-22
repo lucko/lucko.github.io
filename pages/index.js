@@ -39,11 +39,10 @@ const Domain = () => {
         <li><a href="https://ci.lucko.me/"><b>ci.</b>lucko.me</a> - continuous integration & downloads</li>
         <li><a href="https://nexus.lucko.me/"><b>nexus.</b>lucko.me</a> - maven repository</li>
         <li><a href="https://paste.lucko.me/"><b>paste.</b>lucko.me</a> - pastebin</li>
-        <li><a href="https://bytebin.lucko.me/"><b>bytebin.</b>lucko.me</a> - content storage web service</li>
         <li><a href="https://spark.lucko.me/"><b>spark.</b>lucko.me</a> - spark website</li>
       </ul>
       <p>I try my best to keep these services available. Most have been online and had good uptime
-        for the past ~4 years at least. The hosting configs can be found on GitHub
+        for the past ~7 years at least. The hosting configs can be found on GitHub
         at <a href="https://github.com/lucko/infra">lucko/infra</a>.</p>
     </article>
   )
@@ -57,8 +56,8 @@ const Projects = () => {
 
       <Project repo="lucko/LuckPerms">
         <li>LuckPerms is a <b>permissions</b> management system for Minecraft servers.</li>
-        <li>At time of writing, it's been downloaded ~4M times, has ~400,000 monthly active users,
-          and a Discord community of ~15,000 people.</li>
+        <li>At time of writing, it's been downloaded ~7M times, has ~400,000 monthly active users,
+          and a Discord community of ~19,000 people.</li>
         <li>The project also has a website, <a href="https://github.com/lucko/LuckPermsWeb">LuckPermsWeb</a>,
           which includes web apps for viewing/editing/managing permission setups, written using Vue.js.</li>
         <li>More information can be found on the project homepage at <a href="https://luckperms.net/">luckperms.net</a>.</li>
@@ -66,17 +65,17 @@ const Projects = () => {
 
       <Project repo="lucko/spark">
         <li>spark is a <b>performance profiler</b> for Minecraft clients, servers and proxies.</li>
-        <li>At time of writing, it's been downloaded ~15M times and has ~20,000 monthly active users.</li>
+        <li>At time of writing, it's been downloaded ~25M times and has ~20,000 monthly active users.</li>
         <li>The project also has a website, <a href="https://github.com/lucko/spark-viewer">spark-viewer</a>,
-          which includes functionality for inspecting profiles as stack trees and flame graphs, written using React.</li>
+          which includes functionality for inspecting profiles as stack trees and flame graphs, written using React/Next.js.</li>
         <li>More information can be found on the project homepage at <a href="https://spark.lucko.me/">spark.lucko.me</a>.</li>
       </Project>
 
-      <Project repo="lucko/helper">
-        <li>helper is a <b>development toolkit / library</b> for Bukkit plugin developers. It provides a number of utilities
-          and extended APIs which help to reduce boilerplate code and offer alternative paradigms for creating content.</li>
-        <li>I'm no longer actively working on further API additions, but the project is still being used
-          frequently by various development teams, and I accept pull requests!</li>
+      <Project repo="lucko/paste">
+        <li>paste is a simple web app for writing & sharing code. It's my own take on conventional
+          pastebin sites like pastebin.com or hastebin.</li>
+        <li>The frontend is written using React, and based on the Monaco Editor.</li>
+        <li>There is a public instance I host at <a href="https://pastes.dev/">pastes.dev</a>.</li>
       </Project>
 
       <Project repo="lucko/bytebin">
@@ -92,13 +91,13 @@ const Projects = () => {
           exchange messages with other clients in the same channel.</li>
       </Project>
 
-      <Project repo="lucko/paste">
-        <li>paste is a simple web app for writing & sharing code. It's my own take on conventional
-          pastebin sites like pastebin.com or hastebin.</li>
-        <li>The frontend is written using React, and based on the Monaco Editor.</li>
-        <li>There is a public instance I host at <a href="https://pastes.dev/">pastes.dev</a>.</li>
+      <Project repo="lucko/helper">
+        <li>helper is a <b>development toolkit / library</b> for Bukkit plugin developers. It provides a number of utilities
+          and extended APIs which help to reduce boilerplate code and offer alternative paradigms for creating content.</li>
+        <li>I'm no longer actively working on further API additions, but the project is still being used
+          frequently by various development teams, and I accept pull requests!</li>
       </Project>
-      
+
       <section>
         <h3>Other</h3>
         <p>I've also created and made significant contributions to a number of other projects.</p>
