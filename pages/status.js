@@ -74,7 +74,7 @@ const ServiceTag = ({ id }) => {
 }
 
 async function pollStatus() {
-  const resp = await fetch('https://lucko.me/api/status');
+  const resp = await fetch('https://status.lucko.workers.dev/');
   if (!resp.ok) {
     // how meta
     return { api: '⚠️ returned status ' + resp.status };
